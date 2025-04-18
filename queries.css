@@ -94,7 +94,8 @@
   }
 
   .search-bar {
-    max-width: 62.8rem;
+    /* max-width: 62.8rem;\\ */
+    gap: 1rem;
   }
 
   .logo img {
@@ -102,7 +103,126 @@
   }
 
   .search-box input {
-    padding-right: 24rem;
+    padding-right: 0rem;
+  }
+
+  .navbar-input {
+    gap: 1rem;
+    display: none;
+  }
+
+  .post-btn {
+    padding: 0.8rem 2rem;
+  }
+
+  .menu {
+    padding: 1.2rem;
+  }
+
+  .secondary-menu .secondary-menu-item {
+    font-size: 1rem;
+  }
+
+  .secondary-menu-item:last-child,
+  .secondary-menu-item:nth-child(6) {
+    display: none;
+  }
+
+  .deals-text {
+    font-size: 1.4rem;
+  }
+
+  .deals--text {
+    font-size: 1rem;
+  }
+
+  .main-post-container {
+    width: 62.5vw;
+  }
+
+  .main-post {
+    padding: 1rem 1.4rem 1rem 1rem;
+  }
+
+  .posted-time-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .deal-btn-link {
+    font-size: 1.2rem;
+
+    padding: 0.7rem 2.4rem;
+  }
+
+  .deal-icons {
+    font-size: 1.3rem;
+    gap: 3rem;
+  }
+
+  .price--cut {
+    font-size: 2rem;
+  }
+
+  .img-box {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .degree-btn {
+    font-size: 1rem;
+
+    gap: 0.2rem;
+    padding: 0.12em;
+  }
+
+  .deals-heading {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .deals-info {
+    font-size: 1rem;
+    gap: 0.6rem;
+  }
+
+  .price-cut {
+    font-size: 1.8rem;
+  }
+
+  .main-price {
+    font-size: 1.2rem;
+  }
+  .deal-description {
+    font-size: 1rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+  }
+
+  .search-box {
+    padding: 0 1rem;
+  }
+  /* 
+  .search-bar {
+    max-width: 62.8rem;
+  } */
+
+  .logo img {
+    width: 60%;
+  }
+
+  .search-box input {
+    padding-right: 2rem;
   }
 
   .navbar-input {
@@ -116,17 +236,22 @@
 
   .menu {
     padding: 1.2rem;
+    display: none;
   }
 
+  .secondary-menu-item:nth-child(4),
+  .secondary-menu-item:nth-child(5),
+  .secondary-menu-item:nth-child(6),
   .secondary-menu-item:last-child {
     display: none;
   }
 
   .main-post-container {
-    width: 97vw;
+    width: 40vw;
   }
 
-  .sidebar {
+  .sidebar,
+  .main-post .deal-description {
     display: none;
   }
 }
