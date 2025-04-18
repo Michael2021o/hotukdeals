@@ -567,18 +567,6 @@ form input {
 
 /* SIDEBAR */
 
-.sidebar {
-  /* grid-column: 6 / -1; */
-  /* grid-area: sidebar; */
-  /* background-color: #1d1f20;
-  padding: 1.6rem;
-  border-radius: 0.8rem; */
-  /* align-self: flex-start; */
-  /* display: flex;
-  flex-direction: column; */
-  /* gap: 1.6rem; */
-}
-
 .top-sidebar {
   display: flex;
   flex-direction: column;
