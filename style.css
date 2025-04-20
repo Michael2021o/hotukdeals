@@ -44,6 +44,11 @@ header {
   border: 1px solid #555;
   padding: 1.2rem 2rem;
   border-radius: 4rem;
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  background-color: #28292a;
 }
 
 form input {
@@ -97,14 +102,28 @@ form input {
   display: flex;
   align-items: center;
   gap: 1rem;
+  background-color: transparent;
+  padding: 1.2rem 1.4rem;
+  border-radius: 4rem;
+  transition: all 0.5s;
+}
+
+.text-flex:hover {
+  background-color: #28292a;
 }
 
 .post-btn {
-  padding: 1.2rem 2rem;
+  padding: 1rem 1.8rem;
   border-radius: 6rem;
   background-color: transparent;
   border: none;
   border: 1px solid #f97936;
+  transition: all 0.5s;
+}
+
+.post-btn:hover {
+  background-color: #f97a3659;
+  cursor: pointer;
 }
 
 .post-navbar span {
@@ -123,21 +142,22 @@ form input {
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 1.2rem;
 }
 .secondary-menu-item {
   display: flex;
   align-items: center;
   gap: 0.6rem;
   font-size: 1.4rem;
-  padding: 1.4rem 0;
+  padding: 1rem 1.4rem;
+  background-color: transparent;
+  border-radius: 6rem;
   /* font-weight: 600; */
 }
 
 .secondary-menu-item:hover {
   cursor: pointer;
-  background-color: #555;
-  padding: 9px;
-  border-radius: 4rem;
+  background-color: #28292a;
 }
 
 .secondary-menu-item i {
