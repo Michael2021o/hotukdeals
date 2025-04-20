@@ -347,7 +347,7 @@ form input {
   background-color: #28292a;
 } */
 
-.img-box::after {
+/* .img-box::after {
   content: "";
   background-color: #28292a;
   height: 100%;
@@ -355,9 +355,8 @@ form input {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: -1;
-  /* padding: -60em; */
-}
+  z-index: -1; */
+/* padding: -60em; */
 
 .post-img {
   width: 100%;
