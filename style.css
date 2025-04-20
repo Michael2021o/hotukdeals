@@ -424,13 +424,24 @@ form input {
   background-color: #1d1f20;
   padding: 5px;
   border-radius: 50%;
+  transition: all 0.4s;
 }
+
+.fa-circle-down:hover {
+  background-color: #30457d8f;
+}
+
 .fa-circle-up {
   color: #f97778;
   border: 1px solid #898989;
   background-color: #1d1f20;
   padding: 5px;
   border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.fa-circle-up:hover {
+  background-color: #96404099;
 }
 
 .posted-time-btn {
@@ -529,6 +540,12 @@ form input {
 
 .comments span {
   font-size: 1.4rem;
+}
+
+.comments:hover,
+.share:hover,
+.save:hover {
+  color: #f97936;
 }
 
 .deal-btn-link {
