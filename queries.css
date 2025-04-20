@@ -25,7 +25,7 @@
   .img-box::after {
     content: "";
 
-    width: 22rem;
+    width: 27.3%;
   }
 }
 
@@ -83,13 +83,19 @@
   .secondary-menu {
     gap: 1.6rem;
   }
+
+  .img-box::after {
+    content: "";
+
+    width: 22.6rem;
+  }
 }
 
-.img-box::after {
+/* .img-box::after {
   content: "";
 
   width: 25.5%;
-}
+} */
 
 @media (max-width: 55em) {
   .secondary-menu {
@@ -139,7 +145,7 @@
     content: "";
     background-color: #28292a;
     height: 44rem;
-    width: 21rem;
+    width: 21.3rem;
     position: absolute;
     left: 0;
     top: 0;

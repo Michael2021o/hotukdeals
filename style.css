@@ -343,15 +343,20 @@ form input {
   overflow: hidden;
 }
 
+/* .main-post .img-background {
+  background-color: #28292a;
+} */
+
 .img-box::after {
   content: "";
   background-color: #28292a;
-  height: 34rem;
-  width: 21.6rem;
+  height: 100%;
+  width: 25.4%;
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
+  /* padding: -60em; */
 }
 
 .post-img {
