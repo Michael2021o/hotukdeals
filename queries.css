@@ -226,7 +226,7 @@
     align-self: center;
   }
 
-  .img-box::after {
+  /* .img-box::after {
     content: "";
     background-color: #28292a;
     height: 44rem;
@@ -235,7 +235,7 @@
     left: 0;
     top: 0;
     z-index: -1;
-  }
+  } */
 
   .degree-btn {
     font-size: 1.3rem;
