@@ -141,7 +141,7 @@ form input {
 .secondary-menu {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  /* gap: 1rem; */
   margin-bottom: 1.2rem;
 }
 .secondary-menu-item {
@@ -428,7 +428,8 @@ form input {
 }
 
 .fa-circle-down:hover {
-  background-color: #30457d8f;
+  background-color: #2a3a66;
+  cursor: pointer;
 }
 
 .fa-circle-up {
@@ -441,7 +442,8 @@ form input {
 }
 
 .fa-circle-up:hover {
-  background-color: #96404099;
+  background-color: #643030;
+  cursor: pointer;
 }
 
 .posted-time-btn {
@@ -546,6 +548,7 @@ form input {
 .share:hover,
 .save:hover {
   color: #f97936;
+  cursor: pointer;
 }
 
 .deal-btn-link {
@@ -557,6 +560,13 @@ form input {
   background-color: #f97936;
   padding: 1rem 4rem;
   border-radius: 6rem;
+  transition: all 0.5s;
+}
+
+.deal-btn-link:hover {
+  background-color: #e06d31;
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .banner-post {
